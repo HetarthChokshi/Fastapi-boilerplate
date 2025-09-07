@@ -22,7 +22,6 @@ def set_response(
     """
     response_body = {
         "status_code": status_code,
-        "success": 200 <= status_code < 300,
         "message": notification,
         "data": data
     }
